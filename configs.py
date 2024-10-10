@@ -36,11 +36,11 @@ CUSTOM_CAPTION = environ.get('CUSTOM_CAPTION')
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", 224817837))
-	API_HASH = os.environ.get("API_HASH", "2a99a1375e26295626c04b4606f72752")
+	API_ID = int(os.environ.get("API_ID", 24817837))
+	API_HASH = os.environ.get("API_HASH", "acd9f0cc6beb08ce59383cf250052686")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN","7822271756:AAEjjdro-VuutRzqG5A2kcQqDMfwo6NRxTs")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "MissRozy_BOT")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1001772120203))
+	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "LinksssXBot")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL",-1002099692683))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1740287480"))
 	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://Aniflix:Lipun123@aniflix.q2wina5.mongodb.net/?retryWrites=true&w=majority&appName=Aniflix")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001765107260")
