@@ -40,7 +40,7 @@ class Config(object):
 	API_HASH = os.environ.get("API_HASH", "acd9f0cc6beb08ce59383cf250052686")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN","7822271756:AAEjjdro-VuutRzqG5A2kcQqDMfwo6NRxTs")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "LinksssXBot")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL",-1002099692683))
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL",-1002151954601))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1740287480"))
 	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://Aniflix:Lipun123@aniflix.q2wina5.mongodb.net/?retryWrites=true&w=majority&appName=Aniflix")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001765107260")
