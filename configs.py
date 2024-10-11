@@ -43,7 +43,7 @@ class Config(object):
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL",-1002151954601))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1740287480"))
 	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://Aniflix:Lipun123@aniflix.q2wina5.mongodb.net/?retryWrites=true&w=majority&appName=Aniflix")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002221437806")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002151954601")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002151954601")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
